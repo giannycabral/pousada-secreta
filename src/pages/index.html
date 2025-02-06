@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Secreta</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pousada Secreta</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quartos.html" target="_blank">Quartos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#rota">Rota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo à Pousada Secreta</h1>
+                <p>Descubra o conforto e a tranquilidade que oferecemos.</p>
+                <a href="quartos.html" target="_blank" class="cta-button">Veja nossos quartos</a>
+            </div>
+        </section>
+
+        <section class="quartos">
+            <h2>Conheça nossos quartos</h2>
+            <p>Veja os quartos que temos disponíveis para você.</p>
+            <div class="quartos-container">
+
+                <div class="quarto-card">
+                    <img src="../assets/img/quarto-solteiro1.jpg" alt="Quarto de solteiro">
+                    <div class="quarto-info">
+                        <h3><a href="quartos.html#solteiro" class="quarto-link">Quarto de solteiro</a></h3>
+                        <p>Ideal para viajantes solo</p>
+                        <span class="preco">A partir de R$ 150/noite</span>
+                    </div>
+                </div>
+
+                <div class="quarto-card">
+                    <img src="../assets/img/quarto-casal1.jpg" alt="Quarto de casal">
+                    <div class="quarto-info">
+                        <h3><a href="quartos.html#casal" class="quarto-link">Quarto de casal</a></h3>
+                        <p>Perfeito para casais</p>
+                        <span class="preco">A partir de R$ 200/noite</span>
+                    </div>
+                </div>
+
+                <div class="quarto-card">
+                    <img src="../assets/img/quarto-familia1.jpg" alt="Quarto de família">
+                    <div class="quarto-info">
+                        <h3><a href="quartos.html#familia" class="quarto-link">Quarto de família</a></h3>
+                        <p>Espaçoso e confortável</p>
+                        <span class="preco">A partir de R$ 300/noite</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <section id="rota">
+                <h2>Como Chegar</h2>
+                <p>Veja como chegar até a pousada</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356264554459!2d-43.18571708503453!3d-22.902449085012375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sHostel%20Receptivo%20Rio%20Hostel!5e0!3m2!1spt-BR!2sbr!4v1630453180683!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+
+        </section>
+    </main>
+
+    <section class="features">
+        <div class="features-header">
+            <h2 id="sobre">SOBRE A POUSADA!</h2>
+            <p>Conheça um pouco sobre nossa pousada.</p>
+        </div>
+        <div class="feature-container">
+            <div class="feature-card">
+                <img src="../assets/img/img1.jpg" alt="Fachada da pousada">
+                <h3>A pousada</h3>
+                <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="../assets/img/img2.jpg" alt="Quarto da pousada">
+                <h3>Nossos quartos</h3>
+                <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso,
+                    as unidades contam com ar-condicionado e guarda-roupa.</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="../assets/img/img3.jpg" alt="Restaurante">
+                <h3>Alimentação</h3>
+                <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam
+                    24hrs.</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="../assets/img/img5.jpg" alt="Recepção">
+                <h3>Recepção</h3>
+                <p>Nossa recepção fica aberta 24hrs.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Entre em contato</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Endereço: Av. 123, 222 - Rio de Janeiro RJ</p>
+                <p><i class="fas fa-phone"></i> Cel: 5521000000000</p>
+                <p><i class="fas fa-envelope"></i> Email: contato@pousadasecreta.com.br</p>
+            </div>
+            <div class="footer-reservas">
+                <h3>Faça sua reserva</h3>
+                <p><i class="fab fa-booking"></i>
+                    <a href="https://www.booking.com" target="_blank">Reserve pelo Booking.com</a>
+                </p>
+                <p><i class="fas fa-calendar-alt"></i>
+                    <a href="#" target="_blank">Reserve direto conosco</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Pousada Secreta. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
